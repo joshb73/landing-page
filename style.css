@@ -1,0 +1,173 @@
+html{
+    font-family: 'Roboto';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    width: 72px;
+    flex-grow: 0;
+    background: #3882f6;
+    border-radius: 6px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.header{
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.header-text{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.link-list{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    padding: 72px 200px;
+}
+
+.hero-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-grow: 0;
+    text-wrap: wrap;
+    width: 300px;
+}
+
+.hero-img{
+    width: 450px;
+    height: 250px;
+}
+
+.info-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-pics{
+    display: flex;
+}
+
+.cat{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+}
+
+.pic-text{
+    text-wrap: wrap;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtext{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    padding: 72px 250px;
+    background: #e5e7eb;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+
+}
+
+.quotee{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-section{
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    display: flex;
+    background: #3882f6;
+    width: 1000px;
+    padding: 40px 100px;
+    border-radius: 12px;
+    justify-content: space-between;
+    
+}
+
+.cta{
+    color: #e5e7eb;
+}
+
+.cta-button{
+    border-color: #e5e7eb;
+}
+
+.hero-button{
+    margin-top: 10px;
+}
+
+.footer{
+    background: #1f2937;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 5px 0px;
+}
